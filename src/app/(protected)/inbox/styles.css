@@ -1,0 +1,9 @@
+.inbox-wrapper {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f4f6f9;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  

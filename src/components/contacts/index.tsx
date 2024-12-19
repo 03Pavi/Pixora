@@ -7,7 +7,8 @@ const Contacts = () => {
   return (
     <Box className="contacts">
       <SearchBar/>
-      <ContactList title='Contacts'/>
+      <ContactList title='Groups'/>
+      <ContactList title='People'/>
     </Box>
   )
 }

@@ -1,8 +1,7 @@
 import { Box } from "@mui/material";
 import { Bell, Exit, Home, Message, Settings } from "@/assets/icons";
-import path from "path";
 
-const IconWrapper = ({ children }: { children: React.ReactNode }) => {
+export const IconWrapper = ({ children }: { children: React.ReactNode }) => {
   return (
     <Box sx={{ width: "32px", height: "32px", display: "flex", alignItems: "center",zIndex:1 }}>
       {children}
